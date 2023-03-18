@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start & cd ../back & gunicorn app:app",
+    "start": "react-scripts start",
     "pyInstall": "cd .. && pip install -r back/requirements.txt",
     "build": "react-scripts build",
     "test": "react-scripts test",

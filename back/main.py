@@ -1,7 +1,7 @@
 from flask import Flask, request
 #import flask-socketio
 from flask_socketio import SocketIO, emit
-
+print("hello world")
 users = {}
 messages = {}
 app = Flask(__name__)
