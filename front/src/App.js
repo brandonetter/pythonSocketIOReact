@@ -2,9 +2,10 @@ import logo from "./logo.svg";
 import "./App.css";
 import { io } from "socket.io-client";
 import { useState, useEffect, useRef } from "react";
-
 //Remember transport is set to false to prevent socket from using polling
-const socket = io("http://localhost:5000", { transports: ["websocket"] });
+const socket = io("https://omgplz.onrender.com:5000", {
+  transports: ["websocket"],
+});
 function App() {
   const [username, setUsername] = useState("");
   const [messages, setMessages] = useState([]);
