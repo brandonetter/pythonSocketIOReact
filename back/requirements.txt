@@ -1,4 +1,4 @@
-flask == "*"
-flask-socketio == "*"
-python-dotenv == "*"
-eventlet == "*"
+flask == "2.2.3"
+flask-socketio == "5.3.3"
+python-dotenv == "1.0.0"
+eventlet == "0.33.3"
