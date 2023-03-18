@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "npm run pyInstall && react-scripts start & python3 ../back",
+    "start": "react-scripts start & python3 ../back",
     "pyInstall": "cd .. && pip3 install -r ../back/requirements.txt",
     "build": "react-scripts build",
     "test": "react-scripts test",
