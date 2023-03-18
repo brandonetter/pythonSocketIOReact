@@ -1,5 +1,0 @@
-flask == 2.2.3
-flask-socketio == 5.3.3
-python-dotenv == 0.20.0
-eventlet == 0.33.3
-gunicorn==19.7.1
